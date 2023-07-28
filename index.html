@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body background="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg">
-    <div>
-    <header><b>Welcome to Portfolio of Anmol Rana</b></header>
-    <hr>
-    <img src="/anmolr.jpg" height="100"/>
-    <span>
-    <a href="/Education.html"> <h3>Education</h3> </a>
-    <a href="/Experiance.html"> <h3>Experiance</h3> </a>
-    <a href="/Projects.html"><h3>Projects</h3> </a>
-</span>
-    <br>
-</div>
-<footer>
-    <a href="/Education.html">click here</a>
-    For More Information Contact:anmolrana.gujjar844@gmail.com
-</footer>
-   
+
+<body>
+    <header>
+        <nav>
+            <div id="left">Anmol's Portfolio</div>
+            <div id="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="lef">
+                <span id="element"></span>
+            </div>
+            <div id="rig">
+                <img src="div.png" alt="Developer png">
+            </div>
+        </section>
+        <br><hr class="blue-hr">
+        <div>
+            <div id="experience">Experience</div>
+            <p id="work">
+                Web Developer Intern at Bharat Intern ( July, 10 2023 - Augest, 10 2023 )</li>
+            </p>
+        </div><Br>
+            <hr class="blue-hr">
+        <div>
+            <div id="skills">Skills</div>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>Problem Solving</li>
+                <li>DSA</li>
+            </ul>
+        </div>
+        <br><hr class="blue-hr">
+        <div class="contact-me">
+            <h2>Contact Me</h2>
+            <p>If you'd like to discuss a project or work together, feel free to contact me!</p>
+            <div id="sy"><a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <a href="#">Send a Message</a>
+        </div>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Hey, My Name is <span id="col">Anmol</span><div>I am a <span>Web Developer</span></div><div>and dedicated towards My Work</div> <button><a href="#">Download Resume</a></button>'],
+            typeSpeed: 35,
+        });
+    </script>
+    <footer>
+        <p>&copy; Anmol's Portfolio. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
