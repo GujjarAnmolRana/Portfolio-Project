@@ -66,7 +66,7 @@ button{
 }
 
 nav ul li a {
-    font-size: 16px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -105,11 +105,30 @@ hr.blue-hr {
 
 #experience {
     border: 1px solid white;
+    background-color: #469dfa;
     border-radius: 15px;
     border-width: 3px;
-    width: 153px;
-    font-size: 30px;
+    font-size: 40px;
+    font-size: 32px;
     margin: 20px 10px;
+}
+
+#ex {
+    text-align: center;
+}
+
+h3 {
+    font-size: 23px;
+    margin-bottom: 2px;
+}
+
+#du {
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+
+#par{
+    font-size: 17px;
 }
 
 #work {
@@ -119,11 +138,13 @@ hr.blue-hr {
 
 #skills {
     border: 1px solid white;
+    background-color: #469dfa;
     border-radius: 15px;
     border-width: 3px;
     font-size: 40px;
-    width: 102px;
+    
     margin: 20px 10px;
+    text-align: center;
 }
 
 .skills-list {
@@ -132,6 +153,54 @@ hr.blue-hr {
 .skills-list li {
     margin: 10px 30px;
     font-size: 20px;
+}
+
+#education {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 30px;
+    margin: 20px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.education-list {
+    list-style: none;
+    margin: 10px 30px;
+    
+}
+
+.education-list li {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education-list p {
+    margin: 5px 0;
+}
+
+#about-me {
+    border: 1px solid white;
+    background-color: #469dfa;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 30px;
+    margin: 20px 10px;
+   text-align: center;
+    margin-bottom: 17px;
+}
+
+.me {
+    margin: 10px 20px;
+    font-size: 16px;
 }
 
 .contact-me {
@@ -144,9 +213,10 @@ hr.blue-hr {
 }
 
 .contact-me a {
+    font-size: 20px;
     display: inline-block;
     background-color: #007bff;
-    padding: 10px 20px;
+    padding: 8px 17px;
     text-decoration: none;
     border-radius: 5px;
 }
